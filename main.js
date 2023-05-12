@@ -23,6 +23,7 @@ window.addEventListener("load", () => {
     videoElement.play();
   });
 
+  
   function setVideo(index, delay = 0) {
     const action = () => {
       const { src, title , quote } = videos[index];
