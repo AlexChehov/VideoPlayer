@@ -1,9 +1,9 @@
 window.addEventListener("load", () => {
   const videos = [
-    { title: "Evresin what i like", src: "./videos/video-0.mp4" , quote: "Some quote" },
-    { title: "Pasta is so GOOD", src: "./videos/video-1.mp4" , quote: "Some quote" },
-    { title: "I know you want this", src: "./videos/video-2.mp4" , quote: "Some quote" },
-    { title: "Coffee is important", src: "./videos/video-3.mp4" , quote: "Some quote" },
+    { title: "Evresin what i like", src: "./videos/video-0.mp4" , quote: "+380939255920" },
+    { title: "Pasta is so GOOD", src: "./videos/video-1.mp4" , quote: "+380939255921" },
+    { title: "I know you want this", src: "./videos/video-2.mp4" , quote: "+380939255922" },
+    { title: "Coffee is important", src: "./videos/video-3.mp4" , quote: "+380939255923" },
   ];
 
   let currentVideoIndex = 0;
