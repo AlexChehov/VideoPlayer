@@ -11,6 +11,8 @@ window.addEventListener("load", () => {
   const videoElement = document.querySelector("#video");
   const h1 = document.querySelector("h1");
 
+  const HH = document.querySelector("h2");
+
   const prev = document.querySelector("#prev");
   const next = document.querySelector("#next");
 
@@ -22,9 +24,10 @@ window.addEventListener("load", () => {
 
   function setVideo(index, delay = 0) {
     const action = () => {
-      const { src, title } = videos[index];
+      const { src, title , quote } = videos[index];
       videoElement.src = src;
       h1.textContent = title;
+      HH.textContent = quote;
 
       videoElement.play();
     };
