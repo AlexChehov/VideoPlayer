@@ -6,6 +6,7 @@ window.addEventListener("load", () => {
     { title: "Coffee is important", src: "./videos/video-3.mp4" , quote: "+380939255923" },
   ];
 
+
   let currentVideoIndex = 0;
 
   const videoElement = document.querySelector("#video");
